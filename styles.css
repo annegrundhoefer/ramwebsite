@@ -1,0 +1,52 @@
+* {
+  font-family: "proxima-nova", sans-serif;
+}
+body {
+  background: #fff;
+}
+body .space-me {
+  padding: 60px 0px;
+}
+header {
+  background: #fff;
+  height: 120px;
+  position: scroll;
+  top: 0px;
+  width: 100%;
+  z-index: 5;
+}
+header .logo {
+  padding: 20px 0px;
+}
+header .logo img {
+  width: 100%;
+}
+header .menu ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+header .menu ul li {
+  display: inline-block;
+  padding: 50px 20px;
+}
+header .menu ul li a {
+  color: #333333;
+  transition: all 0.2s ease-in-out;
+  font-size: 16px;
+  text-decoration: none;
+}
+header .menu ul li:hover a {
+  color: #c25642;
+  text-decoration: none;
+}
+#mastHead {
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+  min-height: 800px;
+  background: url('...img/Slice_1.png') no-repeat center center fixed;
+  background-size: cover;
+  --webkit-backrgound-size: cover;
+  position: relative;
+}

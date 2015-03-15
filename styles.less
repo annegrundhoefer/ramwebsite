@@ -1,0 +1,70 @@
+
+@proxima: "proxima-nova",sans-serif;
+
+@primary : #C25642;
+@secondary : #333333;
+
+*{font-family: @proxima;}
+
+html {
+	
+}
+
+body {
+	background: #fff;
+	.space-me {
+		padding: 60px 0px;
+	}
+}
+
+header {
+	background: #fff;
+	height: 120px;
+	position: scroll;
+	top: 0px;
+	width: 100%;
+	z-index: 5;
+	.logo {
+		padding: 20px 0px;
+		img {
+			width: 100%;
+		}
+	}
+
+	.menu {
+		ul {
+			margin: 0px;
+			list-style-type: none;
+			padding: 0px;
+			li {	
+				display: inline-block;
+				padding: 50px 20px;
+				a {
+					color: @secondary;
+					transition: all .2s ease-in-out;
+					font-size: 16px;
+					text-decoration: none;
+				}
+				&:hover {
+					a {
+						color: @primary;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+#mastHead {
+	height: 800px;
+	width: 100%;
+	overflow: hidden;
+	min-height: 800px;
+	background: url('...img/Slice_1.png') no-repeat center center fixed;
+	background-size: cover;
+	--webkit-backrgound-size: cover;
+	position: relative;
+	}
+	
+
