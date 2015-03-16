@@ -1,6 +1,31 @@
 * {
   font-family: "proxima-nova", sans-serif;
 }
+html body .btn-primary {
+  margin: 10px auto;
+  color: #c25642;
+  text-transform: uppercase;
+  font-weight: 300;
+  background-color: #fff;
+  border: 1px solid #c25642;
+  transition: all 0.2s ease-in-out;
+  border-radius: 0px;
+}
+html body .btn-primary:hover {
+  background-color: #c25642;
+  color: #fff;
+  border-color: #fff;
+}
+html body .btn-primary.red {
+  background: #c25642;
+  border-color: #fff;
+  color: #fff;
+}
+html body .btn-primary.red:hover {
+  background: #fff;
+  color: #c25642;
+  border-color: #c25642;
+}
 body {
   background: #fff;
 }
@@ -77,14 +102,6 @@ header .menu ul li:last-child a:hover {
 #height .blinds p {
   margin: 20px auto;
 }
-#height .blinds .btn-primary {
-  margin: 10px auto;
-  color: #c25642;
-  text-transform: uppercase;
-  font-weight: 300;
-  background-color: #fff;
-  border: 1px solid #c25642;
-}
 #height .blinds-img img {
   padding-top: 60px;
 }
@@ -99,14 +116,6 @@ header .menu ul li:last-child a:hover {
 #orangeHeight .shutters p {
   margin: 20px auto;
   color: fff;
-}
-#orangeHeight .shutters .btn-primary {
-  margin: 10px auto;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 300;
-  background-color: #c25642;
-  border: 1px solid #fff;
 }
 #orangeHeight .shutters-img img {
   padding-top: 60px;
@@ -165,13 +174,6 @@ header .menu ul li:last-child a:hover {
 }
 .choose {
   margin-top: 100px;
-}
-.choose .btn-primary {
-  margin: 10px auto;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 300;
-  background-color: #c25642;
 }
 .ram-img {
   margin-top: 100px;

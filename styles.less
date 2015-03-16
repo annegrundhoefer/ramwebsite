@@ -7,6 +7,33 @@
 *{font-family: @proxima;}
 
 html {
+	body {
+		.btn-primary {
+			margin: 10px auto;
+			color: @primary;
+			text-transform: uppercase;
+			font-weight: 300;
+			background-color: #fff;
+			border: 1px solid @primary;
+			transition: all .2s ease-in-out;
+			border-radius: 0px;
+			&:hover {
+				background-color: @primary;
+				color: #fff;
+				border-color: #fff;
+			}
+			&.red {
+				background: @primary;
+				border-color: #fff;
+				color: #fff;
+				&:hover {
+					background: #fff;
+					color: @primary;
+					border-color: @primary;
+				}
+			}
+		}
+	}
 	
 }
 
@@ -98,14 +125,7 @@ header {
 		p {
 			margin: 20px auto;
 		}
-		.btn-primary {
-			margin: 10px auto;
-			color: @primary;
-			text-transform: uppercase;
-			font-weight: 300;
-			background-color: #fff;
-			border: 1px solid @primary;
-		}
+		
 	}
 	.blinds-img {
 			img { 
@@ -113,6 +133,8 @@ header {
 			}
 		}
 }
+
+
 
 #orangeHeight {
 	height : 50vh;
@@ -125,14 +147,6 @@ header {
 		p {
 			margin: 20px auto;
 			color: fff;
-		}
-		.btn-primary {
-			margin: 10px auto;
-			color: #fff;
-			text-transform: uppercase;
-			font-weight: 300;
-			background-color: @primary;
-			border: 1px solid #fff;
 		}
 	}
 	.shutters-img {
@@ -199,13 +213,6 @@ header {
 
 .choose {
 	margin-top: 100px;
-	.btn-primary {
-			margin: 10px auto;
-			color: #fff;
-			text-transform: uppercase;
-			font-weight: 300;
-			background-color: @primary;
-		}
 }
 
 .ram-img {

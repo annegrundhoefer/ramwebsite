@@ -38,7 +38,7 @@
 			<div class="col-sm-4 col-sm-offset-2 shutters">
 				<h3> Shutters</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis, dui sit amet dapibus varius, metus massa elementum lectus, quis ultrices purus quam a urna.</p>
-				<a href="#"><div class="btn btn-primary">View all</div></a>
+				<a href="#"><div class="btn btn-primary red">View all</div></a>
 			</div>
 		</div>
 	</div>
@@ -68,7 +68,7 @@
 			<div class="col-sm-4 col-sm-offset-2 shutters">
 				<h3> Motorization</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis, dui sit amet dapibus varius, metus massa elementum lectus, quis ultrices purus quam a urna.</p>
-				<a href="#"><div class="btn btn-primary">View all</div></a>
+				<a href="#"><div class="btn btn-primary red">View all</div></a>
 			</div>
 		</div>
 	</div>
@@ -164,7 +164,7 @@
 		<div class="col-sm-6 choose">
 			<h2> Why Choose Ram </h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis, dui sit amet dapibus varius, metus massa elementum lectus, quis ultrices purus quam a urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis, dui sit amet dapibus varius, metus massa elementum lectus, quis ultrices purus quam a urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis, dui sit amet dapibus varius, metus massa elementum lectus, quis ultrices purus quam a urna.Lorem ipsum dolor sit amet, consectetur adi</p>
-			<div class="btn btn-primary"> Get a Quote </div>
+			<div class="btn btn-primary red"> Get a Quote </div>
 		</div>
 		<div class="col-sm-6 ram-img">
 			<img src="http://placehold.it/500x300">
