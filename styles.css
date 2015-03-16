@@ -40,13 +40,139 @@ header .menu ul li:hover a {
   color: #c25642;
   text-decoration: none;
 }
+header .menu ul li:last-child a {
+  background: #c25642;
+  padding: 8px 15px;
+  color: #fff !important;
+  transition: all 0.2s ease-in-out;
+}
+header .menu ul li:last-child a:hover {
+  background: #333333;
+}
 #mastHead {
   height: 800px;
   width: 100%;
   overflow: hidden;
   min-height: 800px;
-  background: url('...img/Slice_1.png') no-repeat center center fixed;
+  background: url('..img/masthead.png') no-repeat center top fixed;
   background-size: cover;
-  --webkit-backrgound-size: cover;
+  --webkit-background-size: cover;
   position: relative;
+}
+.tagline h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 20px auto;
+  padding-top: 60px;
+}
+.tagline p {
+  font-size: 18px;
+}
+#height {
+  height: 50vh;
+}
+#height .blinds h3 {
+  padding-top: 75px;
+}
+#height .blinds p {
+  margin: 20px auto;
+}
+#height .blinds .btn-primary {
+  margin: 10px auto;
+  color: #c25642;
+  text-transform: uppercase;
+  font-weight: 300;
+  background-color: #fff;
+  border: 1px solid #c25642;
+}
+#height .blinds-img img {
+  padding-top: 60px;
+}
+#orangeHeight {
+  height: 50vh;
+  background-color: #c25642;
+}
+#orangeHeight .shutters h3 {
+  color: #fff;
+  padding-top: 75px;
+}
+#orangeHeight .shutters p {
+  margin: 20px auto;
+  color: fff;
+}
+#orangeHeight .shutters .btn-primary {
+  margin: 10px auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  background-color: #c25642;
+  border: 1px solid #fff;
+}
+#orangeHeight .shutters-img img {
+  padding-top: 60px;
+}
+.brands {
+  margin-top: 100px;
+}
+.brands-logos li {
+  display: inline-block;
+  margin: 15px;
+}
+.single-feedback {
+  position: relative;
+  margin-top: 100px;
+}
+.single-feedback .client-pic {
+  width: 48px;
+  height: 48px;
+  margin: auto;
+  position: relative;
+  margin-bottom: -24px;
+  z-index: 999;
+}
+.single-feedback .client-pic img {
+  max-width: 100%;
+  border: 5px solid #fff;
+}
+.single-feedback .box {
+  margin-right: 15px;
+  margin-left: 15px;
+  border-radius: 3px;
+  position: relative;
+  background: #f7f8fa;
+  padding-top: 20px;
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(229, 229, 229, 0.75);
+  -moz-box-shadow: 0px 1px 0px 0px rgba(229, 229, 229, 0.75);
+  box-shadow: 0px 1px 0px 0px rgba(229, 229, 229, 0.75);
+}
+.single-feedback .box p {
+  padding: 25px;
+  font-style: italic;
+  color: #333333;
+}
+.single-feedback .client-info {
+  margin-top: 30px;
+}
+.single-feedback .client-info .client-name {
+  line-height: 20px;
+  text-align: center;
+  color: #c25642;
+  font-weight: 700;
+}
+.single-feedback .client-info .company {
+  text-align: center;
+  color: #333333;
+}
+.choose {
+  margin-top: 100px;
+}
+.choose .btn-primary {
+  margin: 10px auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  background-color: #c25642;
+}
+.ram-img {
+  margin-top: 100px;
 }

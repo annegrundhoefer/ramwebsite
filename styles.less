@@ -51,6 +51,18 @@ header {
 						text-decoration: none;
 					}
 				}
+				&:last-child {
+					a {
+						background: @primary;
+						padding: 8px 15px;
+						color: #fff !important;
+						transition: all .2s ease-in-out;
+						&:hover {
+							background: @secondary;
+						}
+					}
+
+				}
 			}
 		}
 	}
@@ -61,10 +73,141 @@ header {
 	width: 100%;
 	overflow: hidden;
 	min-height: 800px;
-	background: url('...img/Slice_1.png') no-repeat center center fixed;
+	background: url('..img/masthead.png') no-repeat center top fixed;
 	background-size: cover;
-	--webkit-backrgound-size: cover;
+	--webkit-background-size: cover;
 	position: relative;
 	}
-	
+	.tagline {
+		h1 {
+			font-size: 40px;
+			font-weight: 500;
+			margin: 20px auto;
+			padding-top: 60px;
+		}
+		p {
+			font-size: 18px;
+		}
+	}
+#height {
+	height : 50vh;
+	.blinds {
+		h3 {
+			padding-top: 75px;
+		}
+		p {
+			margin: 20px auto;
+		}
+		.btn-primary {
+			margin: 10px auto;
+			color: @primary;
+			text-transform: uppercase;
+			font-weight: 300;
+			background-color: #fff;
+			border: 1px solid @primary;
+		}
+	}
+	.blinds-img {
+			img { 
+				padding-top: 60px;
+			}
+		}
+}
 
+#orangeHeight {
+	height : 50vh;
+	background-color: @primary;
+	.shutters {
+		h3 {
+			color: #fff;
+			padding-top: 75px;
+		}
+		p {
+			margin: 20px auto;
+			color: fff;
+		}
+		.btn-primary {
+			margin: 10px auto;
+			color: #fff;
+			text-transform: uppercase;
+			font-weight: 300;
+			background-color: @primary;
+			border: 1px solid #fff;
+		}
+	}
+	.shutters-img {
+			img { 
+				padding-top: 60px;
+			}
+		}
+}
+
+.brands{
+	margin-top: 100px;
+}
+
+.brands-logos li {
+	display: inline-block;
+	margin: 15px;
+}
+
+.single-feedback {
+	position: relative;
+	margin-top: 100px;
+	.client-pic {
+		width: 48px;
+		height: 48px;
+		margin: auto;
+		position: relative;
+		margin-bottom: -24px;
+		z-index: 999;
+		img {
+			max-width: 100%;
+			border: 5px solid #fff;
+		}
+	}
+	.box {
+		margin-right: 15px;
+		margin-left: 15px;
+		border-radius: 3px;
+		position: relative;
+		background: #f7f8fa;
+		padding-top: 20px;
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(229, 229, 229, 0.75);
+	-moz-box-shadow: 0px 1px 0px 0px rgba(229, 229, 229, 0.75);
+	box-shadow: 0px 1px 0px 0px rgba(229, 229, 229, 0.75);
+	p {
+		padding: 25px;
+		font-style: italic;
+		color: @secondary;
+		}
+	}
+	.client-info {
+		margin-top: 30px;
+		.client-name {
+			line-height: 20px;
+			text-align: center;
+			color: @primary;
+			font-weight: 700;
+		}
+		.company {
+			text-align: center;
+			color: @secondary;
+		}
+	}
+}
+
+.choose {
+	margin-top: 100px;
+	.btn-primary {
+			margin: 10px auto;
+			color: #fff;
+			text-transform: uppercase;
+			font-weight: 300;
+			background-color: @primary;
+		}
+}
+
+.ram-img {
+	margin-top: 100px;
+}

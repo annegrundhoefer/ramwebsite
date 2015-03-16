@@ -6,7 +6,7 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <script src="//use.typekit.net/fgp2uiq.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
@@ -15,15 +15,15 @@
 	<div class="container">
 		<div class="row"> 
 			<div class="col-sm-5 text-left">
-				<img src="http://placehold.it/200x120">
+				<img src="http://placehold.it/200x100">
 			</div>	
 			<div class="col-sm-7 text-right menu">
 				<ul>
 					<li><a href="#">Home</a></li>
-					<li><a href="#">About!</a></li>
+					<li><a href="#">About</a></li>
 					<li><a href="#">Window Coverings</a></li>
 					<li><a href="#">Brands</a></li>
-					<li><a href="#">Get Quote</a></li>
+					<li><a href="#">Get a Quote</a></li>
 				</ul>
 			</div>	
 		</div>
