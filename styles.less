@@ -8,6 +8,9 @@
 
 html {
 	body {
+		img {
+			max-width: 100%;
+		}
 		.btn-primary {
 			margin: 10px auto;
 			color: @primary;
@@ -32,6 +35,9 @@ html {
 					border-color: @primary;
 				}
 			}
+		}
+		.space-me {
+		padding: 60px 0px;
 		}
 	}
 	
@@ -96,64 +102,64 @@ header {
 }
 
 #mastHead {
-	height: 800px;
+	height: 100vh;
 	width: 100%;
 	overflow: hidden;
 	min-height: 800px;
-	background: url('..img/masthead.png') no-repeat center top fixed;
+	background: url('/ramwebsite/img/masthead.png') no-repeat center center fixed;
 	background-size: cover;
-	--webkit-background-size: cover;
+	-webkit-backrgound-size: cover;
 	position: relative;
+
+	img {
+		width: 100%;
 	}
-	.tagline {
-		h1 {
-			font-size: 40px;
-			font-weight: 500;
-			margin: 20px auto;
-			padding-top: 60px;
-		}
-		p {
-			font-size: 18px;
-		}
+}
+	
+.tagline {
+	h1 {
+		font-size: 40px;
+		font-weight: 500;
+		margin: 20px auto;
+		padding-top: 60px;
 	}
+	p {
+		font-size: 18px;
+	}
+}
+
 #height {
-	height : 50vh;
+	padding: 12.5vh 0px;
 	.blinds {
-		h3 {
-			padding-top: 75px;
-		}
-		p {
-			margin: 20px auto;
-		}
+		// margin-top: 12.5vh;
 		
 	}
 	.blinds-img {
-			img { 
-				padding-top: 60px;
-			}
+		img {
+			// margin-top: 12.5vh;
 		}
+	}
 }
 
 
 
 #orangeHeight {
-	height : 50vh;
 	background-color: @primary;
+	padding: 12.5vh 0px;
 	.shutters {
+		// margin-top: 12.5vh;
 		h3 {
 			color: #fff;
-			padding-top: 75px;
 		}
 		p {
-			margin: 20px auto;
-			color: fff;
+			color: #fff;
 		}
 	}
 	.shutters-img {
-			img { 
-				padding-top: 60px;
-			}
+		img {
+		// margin-top: 12.5vh;
 		}
+	}
 }
 
 .brands{
@@ -167,7 +173,7 @@ header {
 
 .single-feedback {
 	position: relative;
-	margin-top: 100px;
+	
 	.client-pic {
 		width: 48px;
 		height: 48px;
@@ -213,8 +219,44 @@ header {
 
 .choose {
 	margin-top: 100px;
+	h2 {
+		margin-bottom: 30px;
+	}
+	p {
+		margin-bottom: 30px;
+	}
+	img {
+		width: 25%;
+		float: right;
+	}
 }
 
 .ram-img {
 	margin-top: 100px;
+}
+
+footer {
+	background: @secondary;
+	ul {
+			margin: 0px;
+			list-style-type: none;
+			padding: 0px;
+			li {	
+				display: inline-block;
+				padding: 20px 10px;
+				a {
+					color: #c8c8c8;
+					transition: all .2s ease-in-out;
+					font-size: 16px;
+					text-decoration: none;
+				}
+				&:hover {
+					a {
+						color: @primary;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+
 }

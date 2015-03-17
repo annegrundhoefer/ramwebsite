@@ -3,11 +3,13 @@
 <section id="mastHead">
 	<div class="container">
 		<div class="row">
+		<div class="space-me"></div>
 			<div class="col-md-7 col-sm-7 tagline">
 					<h1>Expert Design & Personal<br>Window Covering Solutions</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce <br>lobortis, dui sit amet dapibus varius, metus massa elementum <br>lectus, quis ultrices purus quam a urna.</p>
 			</div>
 			<div class="col-md-5 col-sm-5 quote">
+			<img src="http://placehold.it/500x400">
 			</div>
 		</div>
 	</div>
@@ -104,6 +106,8 @@
 		</div>
 	</div>
 </div>
+
+<div class="space-me"></div>
 	
 <!-- TESTIMONIALS-->
 <div class="container">
@@ -159,17 +163,24 @@
 	</div>
 </div>
 
+<div class="space-me"></div>
+
 <div class="container">
 	<div class="row">
-		<div class="col-sm-6 choose">
+		<div class="col-sm-5 choose">
+		<img src="/ramwebsite/img/badges.png">
 			<h2> Why Choose Ram </h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis, dui sit amet dapibus varius, metus massa elementum lectus, quis ultrices purus quam a urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis, dui sit amet dapibus varius, metus massa elementum lectus, quis ultrices purus quam a urna.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis, dui sit amet dapibus varius, metus massa elementum lectus, quis ultrices purus quam a urna.Lorem ipsum dolor sit amet, consectetur adi</p>
 			<div class="btn btn-primary red"> Get a Quote </div>
 		</div>
-		<div class="col-sm-6 ram-img">
+		<div class="col-sm-offset-1 col-sm-6 ram-img">
 			<img src="http://placehold.it/500x300">
 		</div>
 	</div>
 </div>
+
+<div class="space-me"></div>
+
+<?php include('footer.php'); ?>
 </body>
 </html>

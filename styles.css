@@ -1,6 +1,9 @@
 * {
   font-family: "proxima-nova", sans-serif;
 }
+html body img {
+  max-width: 100%;
+}
 html body .btn-primary {
   margin: 10px auto;
   color: #c25642;
@@ -25,6 +28,9 @@ html body .btn-primary.red:hover {
   background: #fff;
   color: #c25642;
   border-color: #c25642;
+}
+html body .space-me {
+  padding: 60px 0px;
 }
 body {
   background: #fff;
@@ -75,14 +81,17 @@ header .menu ul li:last-child a:hover {
   background: #333333;
 }
 #mastHead {
-  height: 800px;
+  height: 100vh;
   width: 100%;
   overflow: hidden;
   min-height: 800px;
-  background: url('..img/masthead.png') no-repeat center top fixed;
+  background: url('/ramwebsite/img/masthead.png') no-repeat center center fixed;
   background-size: cover;
-  --webkit-background-size: cover;
+  -webkit-backrgound-size: cover;
   position: relative;
+}
+#mastHead img {
+  width: 100%;
 }
 .tagline h1 {
   font-size: 40px;
@@ -94,31 +103,17 @@ header .menu ul li:last-child a:hover {
   font-size: 18px;
 }
 #height {
-  height: 50vh;
-}
-#height .blinds h3 {
-  padding-top: 75px;
-}
-#height .blinds p {
-  margin: 20px auto;
-}
-#height .blinds-img img {
-  padding-top: 60px;
+  padding: 12.5vh 0px;
 }
 #orangeHeight {
-  height: 50vh;
   background-color: #c25642;
+  padding: 12.5vh 0px;
 }
 #orangeHeight .shutters h3 {
   color: #fff;
-  padding-top: 75px;
 }
 #orangeHeight .shutters p {
-  margin: 20px auto;
-  color: fff;
-}
-#orangeHeight .shutters-img img {
-  padding-top: 60px;
+  color: #fff;
 }
 .brands {
   margin-top: 100px;
@@ -129,7 +124,6 @@ header .menu ul li:last-child a:hover {
 }
 .single-feedback {
   position: relative;
-  margin-top: 100px;
 }
 .single-feedback .client-pic {
   width: 48px;
@@ -175,6 +169,38 @@ header .menu ul li:last-child a:hover {
 .choose {
   margin-top: 100px;
 }
+.choose h2 {
+  margin-bottom: 30px;
+}
+.choose p {
+  margin-bottom: 30px;
+}
+.choose img {
+  width: 25%;
+  float: right;
+}
 .ram-img {
   margin-top: 100px;
+}
+footer {
+  background: #333333;
+}
+footer ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+footer ul li {
+  display: inline-block;
+  padding: 20px 10px;
+}
+footer ul li a {
+  color: #c8c8c8;
+  transition: all 0.2s ease-in-out;
+  font-size: 16px;
+  text-decoration: none;
+}
+footer ul li:hover a {
+  color: #c25642;
+  text-decoration: none;
 }
