@@ -23,8 +23,8 @@
 <header>
 	<div class="container">
 		<div class="row"> 
-			<div class="col-sm-5 text-left">
-				<img src="http://placehold.it/200x100">
+			<div class="col-sm-5 logo text-left">
+				<img src="http://belfortagency.com/demo/ramwebsite/wp-content/uploads/2015/03/logo.png">
 			</div>	
 			<div class="col-sm-7 text-right menu">
 				<?php wp_nav_menu(array( 'menu' => 'Header Menu')); ?>

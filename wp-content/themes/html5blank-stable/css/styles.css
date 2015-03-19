@@ -49,10 +49,10 @@ header .logo {
   padding: 20px 0px;
 }
 header .logo img {
-  width: 100%;
+  width: 300px;
 }
 header .menu ul {
-  margin: 0px;
+  margin: 10px;
   list-style-type: none;
   padding: 0px;
 }
