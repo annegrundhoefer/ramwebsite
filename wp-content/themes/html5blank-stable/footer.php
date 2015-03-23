@@ -6,7 +6,7 @@
 			</div>
 			<div class="col-sm-6 text-right">
 				<ul>
-					<li><a href="tel: +12147660330">214.766.0330</a></li>
+					<li><a href="tel:+12147660330">214.766.0330</a></li>
 					<li><a href="mailto:lsblinds@swbell.net">lsblinds@swbell.net</a></li>
 				</ul>
 			</div>

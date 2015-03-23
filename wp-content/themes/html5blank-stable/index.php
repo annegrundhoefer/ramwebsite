@@ -171,7 +171,6 @@
 		<img src="<?php bloginfo('template_url'); ?>/img/badges.png">
 			<h2> Why Choose Ram </h2>
 			<p>I bring over 30 years of industry experience to every client meeting. I use a very relaxed, no pressure style to work with my clients to determine what product makes the most sense for them.  Each situation is unique and I focus on solutions.  I am customer service oriented and am committed to offering my customers the finest quality products at a very competitive and fair price.  I am a one-stop shop for all things windows coverings.</p>
-			<div class="btn btn-primary red"> Get a Quote </div>
 		</div>
 		<div class="col-sm-offset-1 col-sm-6 ram-img">
 			<img src="http://placehold.it/500x300">

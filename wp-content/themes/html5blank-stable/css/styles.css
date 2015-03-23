@@ -48,7 +48,7 @@ header {
 header .logo {
   padding: 20px 0px;
 }
-header .logo img {
+header .logo a img {
   width: 300px;
 }
 header .menu ul {
@@ -93,7 +93,7 @@ header .menu ul li ul li a {
   color: #fff;
 }
 header .menu ul li ul li:hover {
-  background: #313131;
+  background: #c25642;
 }
 header .menu ul li ul li:last-child {
   padding-left: 0px !important;
