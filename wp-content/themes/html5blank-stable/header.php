@@ -23,10 +23,10 @@
 <header>
 	<div class="container">
 		<div class="row"> 
-			<div class="col-sm-4 logo text-left">
+			<div class="col-sm-3 logo text-left">
 				<img src="http://belfortagency.com/demo/ramwebsite/wp-content/uploads/2015/03/logo.png">
 			</div>	
-			<div class="col-sm-8 text-right menu">
+			<div class="col-sm-9 text-right menu">
 				<?php wp_nav_menu(array( 'menu' => 'Header Menu')); ?>
 			</div>	
 		</div>
