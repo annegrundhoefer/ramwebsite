@@ -4,8 +4,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-7 col-sm-7 tagline">
-					<h1>Expert Design & Personal<br>Window Covering Solutions</h1>
-						<p>With over 30 years of experience, Lone Star Blinds is your <br>complete source for all types of window coverings.  From <br>simple horizontal blinds, to elaborate custom draperies and <br>everything in between, if it covers a window, we have it.</p>
+					<h1>Expert Design & Personal Window Covering Solutions</h1>
+						<p>With over 30 years of experience, Lone Star Blinds is your complete source for all types of window coverings.  From simple horizontal blinds, to elaborate custom draperies and everything in between, if it covers a window, we have it.</p>
 			</div>
 			<div class="col-md-5 col-sm-5 form">
 			<?php dynamic_sidebar('quote-form'); ?>
