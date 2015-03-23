@@ -97,11 +97,11 @@
 	<div class="row">
 		<div class="col-md-12 col-sm-12 brands">
 			<ul class="brands-logos text-center">
-				<li><a href="#"><img src="<?php bloginfo('template_url'); ?>/img/horizons.png"></a></li>
-				<li><a href="#"><img src="<?php bloginfo('template_url'); ?>/img/graber.png"></a></li>
-				<li><a href="#"><img src="<?php bloginfo('template_url'); ?>/img/kirsh.png"></a></li>
-				<li><a href="#"><img src="<?php bloginfo('template_url'); ?>/img/heritage.png"></a></li>
-				<li><a href="#"><img src="<?php bloginfo('template_url'); ?>/img/conrad.png"></a></li>
+				<li><img src="<?php bloginfo('template_url'); ?>/img/horizons.png"></li>
+				<li><img src="<?php bloginfo('template_url'); ?>/img/graber.png"></li>
+				<li><img src="<?php bloginfo('template_url'); ?>/img/kirsh.png"></li>
+				<li><img src="<?php bloginfo('template_url'); ?>/img/heritage.png"></li>
+				<li><img src="<?php bloginfo('template_url'); ?>/img/conrad.png"></li>
 			</ul>
 		</div>
 	</div>
@@ -121,7 +121,7 @@
 				</div>
 				<div class="client-info">
 					<div class="client-name">
-						Slacina
+						Susan Slacina
 					</div>
 					<div class="company">
 						Simply Done Interiors
@@ -153,7 +153,7 @@
 				</div>
 				<div class="client-info">
 					<div class="client-name">
-						cmstephens710
+						Cindy Stephens
 					</div>
 					<div class="company">
 						Client
