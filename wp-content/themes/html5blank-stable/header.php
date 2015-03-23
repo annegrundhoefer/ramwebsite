@@ -24,7 +24,7 @@
 	<div class="container">
 		<div class="row"> 
 			<div class="col-sm-3 logo text-left">
-				<a href="<?php echo site_url(); ?>"><img src="http://belfortagency.com/demo/ramwebsite/wp-content/uploads/2015/03/logo.png"></a>
+				<a href="<?php echo site_url(); ?>"><img src="http://belfortagency.com/demo/ramwebsite/wp-content/uploads/2015/03/logo1.png"></a>
 			</div>	
 			<div class="col-sm-9 text-right menu">
 				<?php wp_nav_menu(array( 'menu' => 'Header Menu')); ?>
