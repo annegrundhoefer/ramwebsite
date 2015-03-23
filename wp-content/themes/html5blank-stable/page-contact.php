@@ -4,7 +4,7 @@ Template Name: Contact Page
 */
 get_header(); ?>
 
-
+<section id="mastHead">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-7 col-md-7 page-content">
@@ -47,7 +47,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-
+</section>
 
 
 
