@@ -42,8 +42,8 @@ get_header(); ?>
 					<!-- /section -->
 				</main>
 			</div>
-			<div class="col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1category-form">
-			<?php dynamic_sidebar('sidebar-form'); ?>
+			<div class="col-md-5 col-sm-5 form">
+			<?php dynamic_sidebar('quote-form'); ?>
 			</div>
 		</div>
 	</div>
