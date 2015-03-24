@@ -567,9 +567,14 @@ footer ul li:hover a {
   html body .single-feedback .client-info {
     margin: 30px;
   }
+  html body .category-form {
+    padding: 0px 0px;
+  }
   html body .quote-form,
   html body .sidebar-form {
     padding: 10px 5px;
+    width: 100%;
+    margin: 0px;
   }
   html body .quote-form p,
   html body .sidebar-form p {
@@ -580,5 +585,8 @@ footer ul li:hover a {
   html body .quote-form h4,
   html body .sidebar-form h4 {
     text-align: center;
+  }
+  html body .form {
+    padding: 20px 0px;
   }
 }
