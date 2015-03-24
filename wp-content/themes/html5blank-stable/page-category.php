@@ -7,7 +7,7 @@ get_header(); ?>
 
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-7 col-md-7 page-content">
+			<div class="col-sm-6 col-md-7 page-content">
 				<main role="main">
 					<!-- section -->
 					<section>
@@ -42,7 +42,7 @@ get_header(); ?>
 					<!-- /section -->
 				</main>
 			</div>
-			<div class="col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1category-form">
+			<div class="col-sm-6 col-md-4 col-md-offset-1 category-form">
 			<?php dynamic_sidebar('sidebar-form'); ?>
 			</div>
 		</div>
@@ -158,13 +158,13 @@ get_header(); ?>
 
 <div class="container">
 	<div class="row">
-		<div class="col-sm-5 choose">
+		<div class="col-sm-6 col-md-5 choose">
 		<img src="<?php bloginfo('template_url'); ?>/img/badges.png">
 			<h2> Why Choose Ram </h2>
 			<p>I bring over 30 years of industry experience to every client meeting. I use a very relaxed, no pressure style to work with my clients to determine what product makes the most sense for them.  Each situation is unique and I focus on solutions.  I am customer service oriented and am committed to offering my customers the finest quality products at a very competitive and fair price.  I am a one-stop shop for all things windows coverings.</p>
 			<a href="<?php echo site_url(); ?>"><div class="btn btn-primary red"> Get a Quote </div></a>
 		</div>
-		<div class="col-sm-offset-1 col-sm-6 ram-img">
+		<div class="col-sm-6 col-md-offset-1 col-md-6 ram-img">
 			<img src="http://placehold.it/500x300">
 		</div>
 	</div>

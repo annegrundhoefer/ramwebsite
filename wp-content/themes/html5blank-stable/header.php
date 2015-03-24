@@ -23,12 +23,14 @@
 <header>
 	<div class="container">
 		<div class="row"> 
-			<div class="col-sm-3 logo text-left">
+			<div class="col-sm-12 col-md-3 logo text-left">
 				<a href="<?php echo site_url(); ?>"><img src="http://belfortagency.com/demo/ramwebsite/wp-content/uploads/2015/03/logo1.png"></a>
 			</div>	
-			<div class="col-sm-9 text-right menu">
+			<div class="col-sm-12 col-md-9 text-right menu">
+			<h3 onclick="menuToggle()" class="menu-toggle"><i class="fa fa-bars"></i>Menu</h3>
 				<?php wp_nav_menu(array( 'menu' => 'Header Menu')); ?>
 			</div>	
 		</div>
 	</div>
+	<div style="clear:both"></div>
 </header>

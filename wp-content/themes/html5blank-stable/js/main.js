@@ -1,13 +1,10 @@
-$(document).ready(function(){
-	$(window).scroll(function() {    
-	    var scroll = $(window).scrollTop();
 
-	     //>=, not <=
-	    if (scroll >= 500) {
-	        //clearHeader, not clearheader - caps H
-	        $("#home").addClass("active");
-	    } else {
-	    	$("#home").removeClass("active");
-	    }
-	}); 	
+$(document).ready(function($){
+	$('.menu-toggle').click(function(){
+		$('#menu-footer_menu').toggle();
+	});
 });
+
+function menuToggle(){
+	$('#menu-header-menu').toggle();
+}

@@ -29,6 +29,9 @@ html body .btn-primary.red:hover {
   color: #c25642;
   border-color: #c25642;
 }
+html body .btn-mobile {
+  display: none;
+}
 html body .space-me {
   padding: 60px 0px;
 }
@@ -50,6 +53,9 @@ header .logo {
 }
 header .logo a img {
   width: 300px;
+}
+header .menu-toggle {
+  display: none;
 }
 header .menu ul {
   margin: 10px;
@@ -249,6 +255,9 @@ footer ul li:hover a {
   padding: 65px 20px;
   list-style-type: none;
 }
+.category-form {
+  list-style-type: none;
+}
 .quote-form {
   background: #333333;
   list-style-type: none;
@@ -343,4 +352,224 @@ footer ul li:hover a {
 }
 .images {
   margin: 30px;
+}
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  html body header .menu-toggle {
+    display: none;
+  }
+  html body .logo {
+    text-align: center;
+    padding-bottom: 0px;
+  }
+  html body .menu {
+    text-align: center;
+    width: 100%;
+  }
+  html body .menu ul li a {
+    font-size: 14px;
+  }
+  html body .tagline h1 {
+    font-size: 36px;
+  }
+  html body #mastHead {
+    height: 0px;
+    min-height: 650px;
+  }
+  html body .blinds-img,
+  html body .shutters-img {
+    padding: 40px 10px;
+  }
+  html body .brands {
+    margin: 0px;
+  }
+  html body .ram-img {
+    padding: 60px 30px;
+  }
+  html body .phone {
+    text-align: center;
+  }
+  html body .phone ul li a {
+    color: #c25642;
+  }
+  html body .space-me {
+    display: none;
+  }
+  html body .brands-logos {
+    padding-bottom: 80px;
+  }
+  html body .brands {
+    margin-top: 100px;
+  }
+  html body .choose {
+    padding-bottom: 50px;
+  }
+  html body .choose p {
+    margin-bottom: 0px;
+  }
+  html body .page-content p {
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 767px) {
+  html body header .container {
+    padding: 0px 0px;
+  }
+  html body header .menu-toggle {
+    display: block;
+    color: #fff;
+    background: #c25642;
+    margin: 0px;
+    line-height: 50px;
+  }
+  html body header .menu-toggle i {
+    margin-right: 8px;
+  }
+  html body header .menu {
+    padding: 0px 0px;
+  }
+  html body header .menu ul {
+    display: none;
+    margin: 0px;
+  }
+  html body header .menu ul li {
+    background: #c25642;
+    color: #fff;
+    display: block;
+    float: none;
+    padding: 15px 0px;
+  }
+  html body header .menu ul li a {
+    color: #fff;
+    font-size: 24px;
+    padding: 25px 0px;
+  }
+  html body .row {
+    padding: 0px;
+    margin: 0px;
+  }
+  html body .logo {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  html body .tagline {
+    text-align: center;
+  }
+  html body .tagline h1 {
+    font-size: 44px;
+    padding-top: 30px;
+  }
+  html body #mastHead {
+    height: 1200px;
+    min-height: 100%;
+  }
+  html body .blinds {
+    text-align: center;
+  }
+  html body .blinds h3 {
+    font-size: 36px;
+  }
+  html body .blinds p {
+    font-size: 16px;
+  }
+  html body .blinds-img {
+    display: none;
+  }
+  html body .shutters-img {
+    display: none;
+  }
+  html body .shutters {
+    text-align: center;
+  }
+  html body .shutters h3 {
+    font-size: 36px;
+  }
+  html body .shutters p {
+    font-size: 16px;
+  }
+  html body .brands-logos {
+    padding-bottom: 80px;
+    padding-left: 0px;
+  }
+  html body .brands {
+    margin: 0px;
+  }
+  html body .space-me {
+    display: none;
+  }
+  html body .ram-img {
+    margin: 0px;
+    padding-bottom: 50px;
+  }
+  html body .menu {
+    text-align: center;
+  }
+  html body .phone {
+    text-align: center;
+  }
+  html body .phone ul li a {
+    color: #c25642;
+  }
+  html body .page-content p {
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+  }
+  html body .photo {
+    padding: 10px;
+  }
+  html body .images {
+    margin: 40px;
+  }
+  html body .btn-mobile {
+    text-align: center !important;
+    margin: 10px auto;
+    color: #c25642;
+    text-transform: uppercase;
+    font-weight: 300;
+    background-color: #fff;
+    border: 1px solid #c25642;
+    transition: all 0.2s ease-in-out;
+    border-radius: 0px;
+  }
+  html body .btn-mobile:hover {
+    background-color: #c25642;
+    color: #fff;
+    border-color: #fff;
+  }
+  html body .btn-mobile.red {
+    background: #c25642;
+    border-color: #fff;
+    color: #fff;
+  }
+  html body .btn-mobile.red:hover {
+    background: #fff;
+    color: #c25642;
+    border-color: #c25642;
+  }
+  html body .choose {
+    margin-bottom: 20px;
+  }
+  html body .choose h2 {
+    font-size: 26px;
+  }
+  html body .choose p {
+    margin-bottom: 5px;
+  }
+  html body .single-feedback .client-info {
+    margin: 30px;
+  }
+  html body .quote-form,
+  html body .sidebar-form {
+    padding: 10px 5px;
+  }
+  html body .quote-form p,
+  html body .sidebar-form p {
+    margin: 5px;
+  }
+  html body .quote-form h2,
+  html body .sidebar-form h2,
+  html body .quote-form h4,
+  html body .sidebar-form h4 {
+    text-align: center;
+  }
 }
