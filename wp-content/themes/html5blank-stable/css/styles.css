@@ -440,8 +440,8 @@ footer ul li:hover a {
   }
   html body header .menu ul li a {
     color: #fff;
-    font-size: 24px;
-    padding: 25px 0px;
+    font-size: 16px;
+    padding: 15px 0px;
   }
   html body .row {
     padding: 0px;
@@ -455,11 +455,14 @@ footer ul li:hover a {
     text-align: center;
   }
   html body .tagline h1 {
-    font-size: 44px;
+    font-size: 30px;
     padding-top: 30px;
   }
+  html body .tagline p {
+    font-size: 16px;
+  }
   html body #mastHead {
-    height: 1200px;
+    height: auto;
     min-height: 100%;
   }
   html body .blinds {
@@ -502,12 +505,16 @@ footer ul li:hover a {
   }
   html body .menu {
     text-align: center;
+    width: 100%;
   }
   html body .phone {
     text-align: center;
   }
   html body .phone ul li a {
     color: #c25642;
+  }
+  html body .page-content h2 {
+    text-align: center;
   }
   html body .page-content p {
     text-align: center;
@@ -518,7 +525,7 @@ footer ul li:hover a {
     padding: 10px;
   }
   html body .images {
-    margin: 40px;
+    margin: 10px;
   }
   html body .btn-mobile {
     text-align: center !important;
