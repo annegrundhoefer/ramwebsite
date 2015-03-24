@@ -464,6 +464,7 @@ footer ul li:hover a {
   html body #mastHead {
     height: auto;
     min-height: 100%;
+    background: #fff;
   }
   html body .blinds {
     text-align: center;
