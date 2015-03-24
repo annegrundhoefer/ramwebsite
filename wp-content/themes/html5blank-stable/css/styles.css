@@ -515,11 +515,13 @@ footer ul li:hover a {
   }
   html body .page-content h2 {
     text-align: center;
+    margin-top: 30px;
   }
   html body .page-content p {
     text-align: center;
     font-size: 16px;
-    padding: 15px;
+    padding: 10px;
+    margin: 0px;
   }
   html body .photo {
     padding: 10px;
