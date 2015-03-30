@@ -117,30 +117,14 @@
 	<div class="row">
 		<div class="col-sm-4 single-feedback">
 				<div class="client-pic">
-					<img src="http://placehold.it/50x50">
+					<img src="<?php bloginfo('template_url'); ?>/img/arlene.jpeg">
 				</div>
 				<div class="box">
-					<p>Ram at Lone Star Blinds is dependable, very professional and great at communicating with us and our clients. He follows through from beginning to end on every project, helping to make selections, ordering and installing the finished product. We reccomed him to ALL of our clients.</p>
+					<p>We have had nothing but outstanding service and product from Ram Degani and Lone Star Blinds. We have had two houses completely done by them and the entire process from start to finish was terrific. Ram is thoughtful in his approach, never pushing, & offering his input in a very positive way.</p>
 				</div>
 				<div class="client-info">
 					<div class="client-name">
-						Susan Slacina
-					</div>
-					<div class="company">
-						Simply Done Interiors
-					</div>
-				</div>
-		</div>
-		<div class="col-sm-4 single-feedback">
-				<div class="client-pic">
-					<img src="http://placehold.it/75x75">
-				</div>
-				<div class="box">
-					<p>The quality of work performed was exceptional and exceeded our expectations. Every step of the process from scheduling, to communication, and through work completion was all done in a timely manner which make the process go very smoothly. We highly recommend Lone Star Blinds!</p>
-				</div>
-				<div class="client-info">
-					<div class="client-name">
-						Aydlotte
+						Arlene Glazer
 					</div>
 					<div class="company">
 						Client
@@ -149,14 +133,30 @@
 		</div>
 		<div class="col-sm-4 single-feedback">
 				<div class="client-pic">
-					<img src="http://placehold.it/50x50">
+					<img src="<?php bloginfo('template_url'); ?>/img/sharon.jpeg">
 				</div>
 				<div class="box">
-					<p>Lone Star Blinds truly went the extra mile to help with our window coverings in our home 60 miles away! He listened to our needs & was very knowledgable. He also suggested the right solution for motorized room darkening shades! Ram's measurements were precise & installation was quick.</p>
+					<p>I hired Lone Star Blinds for my window coverings for my last 2 houses. I was impressed with how many options were presented & it was helpful working with someone who could give me the perfect solutions for my aesthetic. The prices were competitive & the service was excellent.</p>
 				</div>
 				<div class="client-info">
 					<div class="client-name">
-						Cindy Stephens
+						Sharon Blumberg
+					</div>
+					<div class="company">
+						Client
+					</div>
+				</div>
+		</div>
+		<div class="col-sm-4 single-feedback">
+				<div class="client-pic">
+					<img src="<?php bloginfo('template_url'); ?>/img/roger.jpeg">
+				</div>
+				<div class="box">
+					<p>Ram and the Lone Star Blinds team are the best of the best. Working in the real estate industry, I come across multiple vendors and I can confidently say that Ram is the best I've ever worked with. I look forward to referring all of my firm's clients to Ram and his company.</p>
+				</div>
+				<div class="client-info">
+					<div class="client-name">
+						Rogers Healy
 					</div>
 					<div class="company">
 						Client
