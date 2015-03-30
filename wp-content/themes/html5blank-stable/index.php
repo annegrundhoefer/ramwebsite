@@ -36,10 +36,10 @@
 <section id="orangeHeight">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 col-md-4 shutters-img">
+			<div class="col-sm-6 col-md-6 shutters-img">
 				<img src="<?php bloginfo('template_url'); ?>/img/shutters.png">
 			</div>	
-			<div class="col-sm-6 col-md-6 col-md-offset-2 shutters">
+			<div class="col-sm-6 col-md-offset-2 col-md-4 shutters">
 				<h3> Shutters</h3>
 				<p>Our custom Plantation shutters are available in solid wood or composite materials.  Select from various louver sizes, trim options and design options. </p>
 				<a href="<?php echo site_url(); ?>/shutters"><div class="btn btn-primary red">View all</div></a>
@@ -66,10 +66,10 @@
 <section id="orangeHeight">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 col-md-4 shutters-img">
+			<div class="col-sm-6 col-md-6 shutters-img">
 				<img src="<?php bloginfo('template_url'); ?>/img/shades.png">
 			</div>	
-			<div class="col-sm-6 col-md-6 col-md-offset-2 shutters">
+			<div class="col-sm-6 col-md-offset-2 col-md-4 shutters">
 				<h3> Shades</h3>
 				<p>From Roman shades and cell shades, to roller shades and natural woven shades, you will not find a wider variety of options anywhere.  Hundreds of colors, materials and styles to choose from.  Whether you are looking for privacy, room darkening, glare control or insulation, you are sure to find a solution that works for any budget.</p>
 				<a href="<?php echo site_url(); ?>/shades"><div class="btn btn-primary red">View all</div></a>
