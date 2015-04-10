@@ -91,8 +91,8 @@ get_header(); ?>
 				<li><img src="<?php bloginfo('template_url'); ?>/img/horizons.png"></li>
 				<li><img src="<?php bloginfo('template_url'); ?>/img/graber.png"></li>
 				<li><img src="<?php bloginfo('template_url'); ?>/img/kirsh.png"></li>
-				<li><img src="<?php bloginfo('template_url'); ?>/img/heritage.png"></li>
 				<li><img src="<?php bloginfo('template_url'); ?>/img/conrad.png"></li>
+				<li><img src="<?php bloginfo('template_url'); ?>/img/hartmann.png"></li>
 			</ul>
 		</div>
 	</div>
