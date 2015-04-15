@@ -300,6 +300,12 @@ footer ul li:hover a {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+.show-mobile {
+  display: none;
+}
+.hide-mobile {
+  display: block;
+}
 .sidebar-form {
   background: #333333;
   list-style-type: none;
@@ -411,6 +417,12 @@ footer ul li:hover a {
   }
 }
 @media all and (max-width: 767px) {
+  html body .show-mobile {
+    display: block;
+  }
+  html body .hide-mobile {
+    display: none;
+  }
   html body header .container {
     padding: 0px 0px;
   }
