@@ -53,13 +53,13 @@ get_header(); ?>
 	<div class="row">
 		<div class="images">
 			<div class="col-sm-4 photo">
-				<img src="<?php bloginfo('template_url'); ?>/img/blinds1.png">
+				<img src="<?php bloginfo('template_url'); ?>/img/shutters1.png">
 			</div>
 			<div class="col-sm-4 photo">
-				<img src="<?php bloginfo('template_url'); ?>/img/blinds2.png">
+				<img src="<?php bloginfo('template_url'); ?>/img/shutters2.png">
 			</div>
 			<div class="col-sm-4 photo">
-				<img src="<?php bloginfo('template_url'); ?>/img/blinds3.png">
+				<img src="<?php bloginfo('template_url'); ?>/img/shutters3.png">
 			</div>
 		</div>
 	</div>
@@ -69,13 +69,13 @@ get_header(); ?>
 	<div class="row">
 		<div class="images">
 		<div class="col-sm-4 photo">
-				<img src="<?php bloginfo('template_url'); ?>/img/blinds4.png">
+				<img src="<?php bloginfo('template_url'); ?>/img/shutters6.png">
 			</div>
 			<div class="col-sm-4 photo">
-				<img src="<?php bloginfo('template_url'); ?>/img/blinds5.png">
+				<img src="<?php bloginfo('template_url'); ?>/img/shutters4.png">
 			</div>
 			<div class="col-sm-4 photo">
-				<img src="<?php bloginfo('template_url'); ?>/img/blinds6.png">
+				<img src="<?php bloginfo('template_url'); ?>/img/shutters5.png">
 			</div>
 		</div>
 	</div>
