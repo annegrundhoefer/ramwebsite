@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Category Page
+Template Name: Shades Page
 */
 get_header(); ?>
 
@@ -53,13 +53,13 @@ get_header(); ?>
 	<div class="row">
 		<div class="images">
 			<div class="col-sm-4 photo">
-				<img src="http://placehold.it/300x300">
+				<img src="<?php bloginfo('template_url'); ?>/img/blinds1.png">
 			</div>
 			<div class="col-sm-4 photo">
-				<img src="http://placehold.it/300x300">
+				<img src="<?php bloginfo('template_url'); ?>/img/blinds2.png">
 			</div>
 			<div class="col-sm-4 photo">
-				<img src="http://placehold.it/300x300">
+				<img src="<?php bloginfo('template_url'); ?>/img/blinds3.png">
 			</div>
 		</div>
 	</div>
@@ -68,14 +68,14 @@ get_header(); ?>
 <div class="container">
 	<div class="row">
 		<div class="images">
-			<div class="col-sm-4 photo">
-				<img src="http://placehold.it/300x300">
+		<div class="col-sm-4 photo">
+				<img src="<?php bloginfo('template_url'); ?>/img/blinds4.png">
 			</div>
 			<div class="col-sm-4 photo">
-				<img src="http://placehold.it/300x300">
+				<img src="<?php bloginfo('template_url'); ?>/img/blinds5.png">
 			</div>
 			<div class="col-sm-4 photo">
-				<img src="http://placehold.it/300x300">
+				<img src="<?php bloginfo('template_url'); ?>/img/blinds6.png">
 			</div>
 		</div>
 	</div>
@@ -173,3 +173,4 @@ get_header(); ?>
 <div class="space-me"></div>
 
 <?php get_footer(); ?>
+
