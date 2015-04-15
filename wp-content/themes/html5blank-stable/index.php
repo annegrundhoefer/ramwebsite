@@ -52,8 +52,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 col-md-4 blinds">
-				<h3> Window Treatments</h3>
-				<p>If you are looking for a truly custom way to cover your windows, our window treatments open up a nearly unlimited variety of options.  From Roman shades and drapery styles to elaborate top treatments, there is nothing we can’t do.  Utilize any fabric you like, or choose from one of hundreds we have available to create window treatments that are uniquely you.</p>
+				<h3> Draperies</h3>
+				<p>If you are looking for a truly custom way to cover your windows, our draperies open up a nearly unlimited variety of options.  From Roman shades and drapery styles to elaborate top treatments, there is nothing we can’t do.  Utilize any fabric you like, or choose from one of hundreds we have available to create draperies that are uniquely you.</p>
 				<a href="<?php echo site_url(); ?>/window-treatments"><div class="btn btn-primary">View all</div></a>
 			</div>
 			<div class="col-sm-6 col-md-6 col-md-offset-2 blinds-img">
