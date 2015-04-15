@@ -176,7 +176,7 @@
 			<p>I bring over 30 years of industry experience to every client meeting. I use a very relaxed, no pressure style to work with my clients to determine what product makes the most sense for them.  Each situation is unique and I focus on solutions.  I am customer service oriented and am committed to offering my customers the finest quality products at a very competitive and fair price.  I am a one-stop shop for all things windows coverings.</p>
 		</div>
 		<div class="col-sm-6 col-md-offset-1 col-md-6 ram-img">
-			<img src="http://placehold.it/500x300">
+			<img src="<?php bloginfo('template_url'); ?>/img/choose.png">
 		</div>
 	</div>
 </div>

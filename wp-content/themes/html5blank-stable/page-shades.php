@@ -165,7 +165,7 @@ get_header(); ?>
 			<a href="<?php echo site_url(); ?>"><div class="btn btn-primary red"> Get a Quote </div></a>
 		</div>
 		<div class="col-sm-6 col-md-offset-1 col-md-6 ram-img">
-			<img src="http://placehold.it/500x300">
+			<img src="<?php bloginfo('template_url'); ?>/img/choose.png">
 		</div>
 	</div>
 </div>
